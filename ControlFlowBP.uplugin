@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Control Flow (Blueprint)",
+	"Description": "Build gameplay sequences in Blueprints that read top to bottom. Queue steps, waits, delays, branches, parallel tracks and loops, with timeouts, clean cancellation and a live debugger.",
+	"Category": "Scripting",
+	"CreatedBy": "Igor Nazarov",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ControlFlowBP",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ControlFlowBPUncooked",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ControlFlowBPEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ControlFlows",
+			"Enabled": true
+		}
+	]
+}
